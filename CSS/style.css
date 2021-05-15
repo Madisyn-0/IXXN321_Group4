@@ -1,3 +1,39 @@
 body {
     background-color: #ffffff;
+    font-family: Nunito Sans;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 13vw 13vw 13vw 13vw 13vw 13vw;
+  grid-gap: 10px;
+  background-color: #ffffff;
+  padding: 10px;
+  justify-content: center;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255);
+  text-align: left;
+  padding-top: 0.5px;
+  font-size: 20px;
+}
+
+#book-image {
+    width: 10vw;
+}
+
+h3 {
+margin-left: 10vw;
+font-family: Nunito Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 5vh;
+line-height: 38px;
+color: #000000;
+}
+
+h4 {
+    font-size: 18px;
+    padding-top: 0;
 }
