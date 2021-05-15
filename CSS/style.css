@@ -3,29 +3,39 @@ body {
     font-family: Nunito Sans;
 }
 
-.grid-container {
+.grid-container, .blog-grid-container {
   display: grid;
   grid-template-columns: 13vw 13vw 13vw 13vw 13vw 13vw;
   grid-gap: 10px;
-  background-color: #ffffff;
   padding: 10px;
   justify-content: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255);
+.grid-container > div, .blog-grid-container > div {
   text-align: left;
   padding-top: 0.5px;
   font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-grid-container {
+  grid-template-columns: 40fr 60fr;
+  padding: 40px 10px;
+}
+
+.blog-grid-container > div {
+  display: flex;
 }
 
 #book-image {
-    width: 10vw;
+  width: 10vw;
 }
 
 h3 {
 margin-left: 10vw;
-font-family: Nunito Sans;
 font-style: normal;
 font-weight: 600;
 font-size: 5vh;
@@ -36,4 +46,9 @@ color: #000000;
 h4 {
     font-size: 18px;
     padding-top: 0;
+}
+
+#horizontal-lines {
+  border-bottom: 1px #787878 solid;
+  border-top: 1px #787878 solid;
 }
