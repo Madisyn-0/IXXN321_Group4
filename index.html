@@ -11,9 +11,6 @@
 
 </head>
 <body>
-    
-    <script src="../JS/code.js"></script>  <!-- check file name -->
-
     <h3>New Releases</h3>
     <div class="grid-container"> <!-- new realeases gird layout -->
       <div><img src="Assets/book_1.png" id="book-image"></div>
@@ -48,8 +45,13 @@
 
     <div class="blog-grid-container" id="horizontal-lines">
       <div><img src="Assets/blog.png" id="blog-image" alt="Black and white picture of women in library"></div>
-      <div><p>In any given month, the range of new books hitting the shelves can be frankly astonishing. 
-        For the dedicated reader, part of the thrill of a serious book habit is the freedom to bounce from topic to topic, genre to genre. </p></div>
+      <div class="blog-content">
+        <p class="blog-title">BLOG</p>
+        <h2>Readers' Most Anticipated Books of May</h2>
+        <p> In any given month, the range of new books hitting the shelves can be frankly astonishing. For the dedicated reader, 
+          part of the thrill of a serious book habit is the freedom to bounce from topic to topic, genre to genre. </p>
+        <button class="readMore-button">Read more</button>
+        </div>
     </div>
 
     <h3>Natural History</h3>
@@ -67,5 +69,22 @@
       <div><p>The Roads to Sata <br><h4>Alan Booth</h4></p></div>
       <div><p>Antlers of Water  <br><h4>Kathleen Jamie</h4></p></div>
     </div>
+
+    <div class="newsletter-grid-container" id="horizontal-lines">
+      <div class="newsletter-content">
+        <h2 class="newsletter">Library Newsletter</h2>
+        <p> Get the scoop on latest arrivals and librarian reviews, fresh off the press in your inbox!</p>
+        <div>
+        <label class="email" for="email-input"> Email</label>
+        <input type="text" name="Email"id="email-input">
+        <button class="email-button">Subscribe</button>
+      </div>
+      </div>
+      <div><img src="Assets/blog.png" id="blog-image" alt="Black and white picture of women in library"></div>
+      
+    </div>
+
+    <script src="../JS/code.js"></script>  <!-- check file name -->
+
 </body>
 </html>
