@@ -272,24 +272,23 @@ nav button {
   height: 2vw;
 }
 
-.blog-grid-container {
+.blog-hero-grid-container {
     grid-template-columns: 50fr 50fr;
-    padding: 40px 30px 30px;
     grid-gap: 48px;
+    display: flex;
+    padding: 40px 30px -5px 30px;
     background-color: #1F524F;
-    margin: 0;
-    padding-top: 2vw;
-
   }
 
-  .blog-content{
-    padding-top: 14vw;
-    padding-left: 10vw;
+  .blog-hero-content{
+    padding-top: 6vw;
+    padding-left: 6vw;
     padding-right: 3vw;
   }
 
   #blog-hero {
     width: 50vw;
+    object-position: bottom;
   }
 
   .blog-heading {
@@ -297,6 +296,6 @@ nav button {
     color: #FFFFFF;
   }
 
-  .blog-description {
+  .blog-hero-description {
     color: #FFFFFF;
   }
