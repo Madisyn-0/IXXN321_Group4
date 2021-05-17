@@ -1,8 +1,14 @@
 body {
     background-color: #ffffff;
     font-family: Nunito Sans;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    color: #282828;
+}
+
+head {
+  padding: 0px;
+  margin: 0px;
 }
 
 .grid-container, 
@@ -59,7 +65,6 @@ font-style: normal;
 font-weight: 600;
 font-size: 5vh;
 line-height: 38px;
-color: #000000;
 }
 
 h4 {
@@ -123,6 +128,8 @@ p {
   overflow: hidden;
   margin: 0px;
   position: sticky; top: 0px;
+  background-color: #ffffff;
+  
 }
 
 nav {
@@ -131,9 +138,12 @@ nav {
   position: fixed;
   width: 100vw;
   height: 5vw;
-  padding-bottom: 30px;
   margin: 0px; 
+  padding: 0px;
+  position: relative;
+  /* top: -20px; */
 }
+
 
 /* nav ul {
 
@@ -146,12 +156,12 @@ nav ul li {
 
 li a {
   margin-left: 4vw;
-  display: block;
+  /* display: block; */
+  display: flex;
+  flex-wrap: wrap;
   color: black;
   text-align: center;
-  /* padding: 18px; */
-  /* top: -20px; */
-  padding: 30px;
+  padding: 20px;
   text-decoration: none;
 }
 
@@ -176,7 +186,7 @@ nav button {
   font-size: 16px;
   line-height: 22px;
   color: #143836;
-  border-style: none;
+  border: 1px solid #143836;
 }
 
 #signup {
@@ -196,11 +206,13 @@ nav button {
 #login:hover {
   background: #143836;
   color:#F9F7F4;
+  cursor: pointer;
   
 }
 
 #signup:hover {
   background:#F9F7F4 ;
   color:#143836;
-
+  cursor: pointer;
+  border: 1px solid #143836;
 }
