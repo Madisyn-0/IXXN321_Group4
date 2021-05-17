@@ -8,10 +8,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Wide Library</title>
-<div id="navbar">
-  <nav>     <!-- Top Navigation Bar -->
-    <ul>
-      <li class="logo"><img src=Assets/WWL_logo.png width="200px"></li>
+
+<nav class="flexbox">
+  <!-- <nav>     Top Navigation Bar -->
+    <div class="logo"><img src=Assets/WWL_logo.png width="200px"></div>
+    <ul class= "nav-pages">
       <li><a href='#'>Home</a></li>
       <li><a href='#'>New Release</a></li>
       <li><a href='#'>Genre</a></li>
@@ -20,17 +21,17 @@
     </ul>  
     <button id="signup" type="button">Sign Up</button>
     <button id="login" type="button">Log In</button>
-  </nav>
-</div>
+  <!-- </nav> -->
+</nav>
 </head>
+
 <body>
- 
 
 <header>
     <div class="hero-grid-container"> <!-- page hero grid layout-->
         <div class="hero-content">
             <p class="hero-description">A new kind of library</p>
-            <h2 class="hero">Browse, and read books online</h2>
+            <h1 class="hero">Browse, and read books online</h1>
             <input type="text" name="search" id="hero-input" placeholder="Search thousands of titles">
             <button class="search-button">Search</button>
         </div>
