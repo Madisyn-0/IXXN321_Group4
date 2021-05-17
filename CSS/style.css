@@ -216,3 +216,54 @@ nav button {
   cursor: pointer;
   border: 1px solid #143836;
 }
+
+
+.hero-grid-container {
+    grid-template-columns: 50fr 50fr;
+    grid-gap: 48px;
+    display: flex;
+    padding: 40px 30px -5px 30px;
+    background-color: #F9F7F4;
+  }
+
+  #hero-image {
+    width: 50vw;
+    object-position: bottom;
+  }
+
+  .hero-content{
+    padding-top: 14vw;
+    padding-left: 10vw;
+    padding-right: 3vw;
+  }
+
+  .hero {
+    margin-bottom: 10px;
+  }
+
+  .hero-description {
+      margin-bottom: 8px;
+  }
+
+  .search-button{
+    background: #F9F7F4;
+    color:#1F524F;
+    padding: 8px 40px;
+    width: 12vw;
+    height: 3vw;
+    border: 1px solid #282828;
+    box-sizing: border-box;
+    border-radius: 80px;
+    font-size: 16px;
+  }
+
+  .search-button:hover{
+    background-color: #1F524F;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+  #hero-input{
+  width: 20vw;
+  height: 2vw;
+}
