@@ -274,10 +274,11 @@ nav button {
 
 .blog-hero-grid-container {
     grid-template-columns: 50fr 50fr;
+    padding: 40px 30px -5px 30px;
     grid-gap: 48px;
     display: flex;
-    padding: 40px 30px -5px 30px;
     background-color: #1F524F;
+    padding-top: 30px;
   }
 
   .blog-hero-content{
@@ -288,14 +289,17 @@ nav button {
 
   #blog-hero {
     width: 50vw;
-    object-position: bottom;
   }
 
-  .blog-heading {
+  .blog-hero-heading {
     margin-bottom: 10px;
     color: #FFFFFF;
   }
 
   .blog-hero-description {
     color: #FFFFFF;
+  }
+
+  .medium-spacer{
+      height: 40px;
   }
