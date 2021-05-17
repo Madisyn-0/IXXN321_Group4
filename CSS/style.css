@@ -242,7 +242,7 @@ nav button {
   }
 
   .hero {
-    margin-bottom: 10px;
+    margin-bottom: 24px;
   }
 
   .hero-description {
@@ -252,8 +252,8 @@ nav button {
   .search-button{
     background: #F9F7F4;
     color:#1F524F;
-    padding: 8px 40px;
-    width: 12vw;
+    padding: 8px 32px;
+    width: 10vw;
     height: 3vw;
     border: 1px solid #282828;
     box-sizing: border-box;
@@ -269,7 +269,14 @@ nav button {
 
   #hero-input{
   width: 20vw;
-  height: 2vw;
+  height: 2.3vw;
+  padding-left: 4px;
+}
+
+
+ #hero-input::placeholder{
+     padding-left: 4px;
+
 }
 
 .blog-hero-grid-container {
