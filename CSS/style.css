@@ -83,6 +83,10 @@ h2 {
   font-size: 38px;
 }
 
+h1 {
+    font-size: 50px;
+  }
+
 p {
   margin-top: 0px;
   margin-bottom: 40px;
@@ -267,3 +271,32 @@ nav button {
   width: 20vw;
   height: 2vw;
 }
+
+.blog-grid-container {
+    grid-template-columns: 50fr 50fr;
+    padding: 40px 30px 30px;
+    grid-gap: 48px;
+    background-color: #1F524F;
+    margin: 0;
+    padding-top: 2vw;
+
+  }
+
+  .blog-content{
+    padding-top: 14vw;
+    padding-left: 10vw;
+    padding-right: 3vw;
+  }
+
+  #blog-hero {
+    width: 50vw;
+  }
+
+  .blog-heading {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+  }
+
+  .blog-description {
+    color: #FFFFFF;
+  }
