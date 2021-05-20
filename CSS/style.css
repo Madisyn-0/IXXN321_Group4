@@ -128,53 +128,26 @@ p {
   color: #ffffff;
 }
 
-/* #navbar {
-  overflow: hidden;
-  margin: 0px;
-  position: sticky; top: 0px;
-} */
+/* Haowei's attempt at fixing nav start*/
 
-/* .navbar {
-  background: #FFFFFF;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
-  position: fixed;
-  width: 100vw;
-  height: 5vw;
-  margin: 0px; 
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
-  margin: 0px;
-  position: sticky; top: 0px;
-  top: -20px; */
-
+/* 
 ul.nav-pages {
 	list-style: none;
 	padding: 0px;
-    /* margin-top: -30px; */
-}
+} */
 
-ul.nav-pages > li{
+/* ul.nav-pages > li{
     display: inline-block;
     margin-left: 2em;
     margin-right: 2em;
     margin-top: 0px;
     align-content: top;
     padding-top: -20px;
-}
-
-/* .nav-pages > li {
-	display: inline-block;
-	margin-left: 0.5em;
-	margin-right: 0.5em;
-}
-
-.nav-pages > li:before {
-	content: "\200B"; /* 1 */
-	/* position: absolute; /* 2 */
+} */
 
 
-nav {
+
+/* nav {
 	background-color: #ffffff;
 	position: fixed;
 	top: 0;
@@ -190,31 +163,39 @@ nav.flexbox {
     display: flex;
     justify-content: space-between;
     align-items: center;
+} */
+
+/* Haowei's attempt at fixing nav end*/
+
+
+#navbar {
+  overflow: hidden;
+  margin: 0px;
+  position: sticky; top: 0px;
+  background-color: #ffffff;
+  
 }
 
-/* .navbar {
-    overflow: hidden;
-    background-color: #FFFFFF;
-    position: fixed; /* Set the navbar to fixed position */
-    /* top: 0; /* Position the navbar at the top of the page */
-    /* width: 100vw; /* Full width */
-    /* height: 5vw;
-    margin: 0px;
-    padding: 0px;
-	position: sticky;
-	top: 0;
-  }  */ 
-
+nav {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  position: fixed;
+  width: 100vw;
+  height: 5vw;
+  margin: 0px; 
+  padding: 0px;
+  position: relative;
+  /* top: -20px; */
+}
 
 
 /* nav ul {
-
 } */
 
-/* nav ul li {
+nav ul li {
   list-style-type: none;
   float: left;
-} */
+}
 
 nav {
     padding: 10px;
