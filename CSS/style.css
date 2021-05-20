@@ -206,8 +206,8 @@ nav {
 }
 
 li a {
-  /* margin-left: 4vw; */
-  /* display: block; */
+  margin-left: 4vw;
+  display: block;
   display: flex;
   flex-wrap: wrap;
   color: black;
