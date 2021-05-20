@@ -99,7 +99,7 @@ p {
 }
 
 .readMore-button,
-.email-button {
+#email-button {
   padding: 8px 40px;
   width: 12vw;
   height: 3vw;
@@ -111,7 +111,7 @@ p {
   font-size: 16px;
 }
 
-.newsletter {
+#newsletter {
   margin-bottom: 10px;
 }
 #email-input {
@@ -119,11 +119,11 @@ p {
   height: 2vw;
 }
 
-.email {
+#email {
   display: flex;
 }
 
-.email-button {
+#email-button {
   background-color: #1F524F;
   color: #ffffff;
 }
@@ -183,28 +183,25 @@ nav button {
 #login {
   background: #F9F7F4;
   border-radius: 80px;
-  padding: 10px 16px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
   font-size: 16px;
   line-height: 22px;
   color: #143836;
   border: 1px solid #143836;
+  padding: 8px 20px;
+  width: 8vw;
+  height: 3vw;
 }
 
 #signup {
   background: #143836;
   border-radius: 80px;
-  font-family: Nunito Sans;
-  padding: 10px 16px;
-  font-family: Nunito Sans;
-  font-style: normal;
-  font-weight: 800;
   font-size: 16px;
   line-height: 22px;
   color: #F9F7F4;
   border-style: none;
+  padding: 8px 20px;
+  width: 8vw;
+  height: 3vw;
 }
 
 #login:hover {
@@ -214,7 +211,7 @@ nav button {
   
 }
 
-#signup:hover {
+#signup:hover, #email-button:hover {
   background:#F9F7F4 ;
   color:#143836;
   cursor: pointer;
