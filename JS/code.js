@@ -13,5 +13,5 @@ const text =document.getElementById('newsletter-text');
     // email.style.fontSize = '30px';
     subscribe.style.display = 'none';
     inputEmail.style.display = 'none';
-    text.textContent = 'We will send you a confirmaiton email!';
+    text.textContent = 'We will send you a confirmaiton email';
  });
