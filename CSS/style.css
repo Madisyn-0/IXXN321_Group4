@@ -39,11 +39,12 @@ head {
 }
 
 .newsletter-grid-container {
-  grid-template-columns: 60fr 40fr;
+  grid-template-columns: 60% 40%;
   grid-gap: 30px;
   display: flex;
   padding: 40px 10px;
-  background-color: #F9F7F4;
+
+  margin-bottom: 10px;
 }
 
 .blog-grid-container > div, 
@@ -57,6 +58,19 @@ head {
 
 #book-image {
   width: 10vw;
+}
+
+/* .blog-image {
+
+} */
+
+.image {
+  /* background-image: url(/Assets/newsletter-image.png); */
+  width: 40%;
+  height: auto;
+  /* background-size: cover; */
+  margin: 0;
+  display: block;
 }
 
 h3 {
@@ -180,26 +194,29 @@ nav.flexbox {
 }
 
 nav {
-  background: #FFFFFF;
+  width: 100%;
+}  
+
+
+nav ul {
+  background-color: #FFFFFF;
+  background-color: aqua;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
   position: fixed;
   width: 100vw;
   height: 5vw;
   margin: 0px; 
   padding: 0px;
-  position: relative;
-  /* top: -20px; */
+  /* position: relative; */
+  flex-wrap: nowrap;
+  align-content: space-between;
 }
-
-
-/* nav ul {
-} */
 
 nav ul li {
   list-style-type: none;
-  float: left;
-  /* display: flex;
-  flex-direction: row; */
+  /* float: left; */
+  display: inline-flex;
+  flex-direction: row;
 }
 
 nav ul li button {
@@ -227,7 +244,7 @@ li a:hover {
 
 nav button {
   /* margin-top: 0.4vw; */
-  float: right;
+  /* float: right; */
   margin-right: 2vw;
   display: flex;
   align-items: center;
@@ -243,8 +260,10 @@ nav button {
   border: 1px solid #143836;
   /* margin: 24px; */
   /* padding: 8px 20px; */
-  width: 8vw;
-  height: 3vw;
+  /* width: 8vw;
+  height: 3vw; */
+  height: 20px;
+
 }
 
 #signup {
@@ -255,9 +274,11 @@ nav button {
   color: #F9F7F4;
   border-style: none;
   /* margin: 24px; */
-  /* padding: 8px 20px; */
-  width: 8vw;
-  height: 3vw;
+  padding: 8px 20px;
+  /* width: 8vw;
+  height: 3vw; */
+  height: 30px;
+
 }
 
 #login:hover {
