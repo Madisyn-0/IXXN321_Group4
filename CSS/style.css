@@ -6,6 +6,8 @@ html, body {
   color: #282828;
 }
 
+
+
 /* nav */
 
 #nav-container {
@@ -265,4 +267,13 @@ p {
   margin-top: 0px;
   margin-bottom: 40px;
   font-size: 18px;
+}
+
+footer{
+ background-color: #F0D0CE;
+ height: 5vh;
+ text-align: center;
+ position: relative;
+ align-content: center;
+ padding-top: 20px;
 }
