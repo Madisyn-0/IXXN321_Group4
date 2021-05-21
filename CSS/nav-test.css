@@ -6,7 +6,7 @@ ul.nav-pages {
 }
 
 ul.nav-pages > li{
-  display: inline-block;
+  /* display: inline-block; */
   margin-left: 2em;
   margin-right: 2em;
   margin-top: 0px;
@@ -102,7 +102,7 @@ li a:hover {
   }
   
   li a {
-    margin-left: 4vw;
+    margin-left: vw;
     /* display: block; */
     display: flex;
     flex-wrap: wrap;

@@ -173,6 +173,9 @@ nav.flexbox {
   margin: 0px;
   position: sticky; top: 0px;
   background-color: #ffffff;
+  margin-top: 0 !important;
+  border: 0 !important;
+
   
 }
 
@@ -195,13 +198,22 @@ nav {
 nav ul li {
   list-style-type: none;
   float: left;
+  /* display: flex;
+  flex-direction: row; */
+}
+
+nav ul li button {
+  display: flex;
+  align-items: center;
+  margin-top: 1vh;
+  margin-left: 5vw;
 }
 
 li a {
   margin-left: 4vw;
   /* display: block; */
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
+  flex-wrap: nowrap;
   color: black;
   text-align: center;
   padding: 20px;
@@ -214,20 +226,23 @@ li a:hover {
 }
 
 nav button {
-  margin-top: 0.4vw;
+  /* margin-top: 0.4vw; */
   float: right;
-  margin-right: 100px;
+  margin-right: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #login {
   background: #F9F7F4;
   border-radius: 80px;
   font-size: 16px;
-  line-height: 22px;
+  /* line-height: 22px; */
   color: #143836;
   border: 1px solid #143836;
-  margin: 24px;
-  padding: 8px 20px;
+  /* margin: 24px; */
+  /* padding: 8px 20px; */
   width: 8vw;
   height: 3vw;
 }
@@ -239,8 +254,8 @@ nav button {
   line-height: 22px;
   color: #F9F7F4;
   border-style: none;
-  margin: 24px;
-  padding: 8px 20px;
+  /* margin: 24px; */
+  /* padding: 8px 20px; */
   width: 8vw;
   height: 3vw;
 }
