@@ -194,27 +194,27 @@ padding-left: 4px;
 }
 
 .blog-grid-container, .newsletter-grid-container {
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 40fr 60fr;
   padding: 40px 10px;
 }
 
 .newsletter-grid-container {
   background-color: #F9F7F4;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 60fr 4fr;
   margin-bottom: 30px;
 }
 
 .blog-grid-container > div, 
 .newsletter-grid-container > div {
-  /* display: flex; */
-  /* flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap;
   flex-direction: column; */
   margin: auto;
   color: #282828;
 }
 
 #book-image, .newsletter-image {
-  width: 100%;
+  width: 90%;
 }
 
 #horizontal-lines {
