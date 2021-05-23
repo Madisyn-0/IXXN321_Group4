@@ -28,7 +28,7 @@ html, body {
   align-content: center;
 }
 
-a, #signup, #login {
+.nav-links, #signup, #login {
   font-weight: 700;
   margin: 0px 20px;
   margin-top: auto;
@@ -38,7 +38,7 @@ a, #signup, #login {
   color: black;
 }
 
-a:hover {
+.nav-links:hover {
   background-color: #E84E3E;
   color: #ffffff;
   padding: 15px;
@@ -149,7 +149,6 @@ padding-left: 4px;
   display: flex;
   background-color: #1F524F;
   padding-top: 30px;
-  margin-top: 60px;
 }
 
 .blog-hero-content{
@@ -182,7 +181,8 @@ padding-left: 4px;
 .newsletter-grid-container,
 .blog-post-container,
 .coming-soon-container,
-.coming-soon-container-right{
+.coming-soon-container-right, 
+.book-description-container{
   display: grid;
   grid-template-columns: 13vw 13vw 13vw 13vw 13vw 13vw;
   grid-gap: 10px;
@@ -197,7 +197,8 @@ padding-left: 4px;
 .newsletter-grid-container > div,
 .blog-post-container > div,
 .coming-soon-container > div,
-.coming-soon-container-right > div {
+.coming-soon-container-right > div
+.book-description-container > div {
   text-align: left;
   padding-top: 0.5px;
   font-size: 20px;
@@ -208,20 +209,43 @@ padding-left: 4px;
 .blog-grid-container, .newsletter-grid-container {
   grid-template-columns: 40fr 60fr;
   padding: 40px 10px;
+  grid-gap: 30px;
+}
+
+.book-description-container{
+  grid-template-columns: 50fr 50fr;
+  border-bottom: 1px #787878 solid;
+  align-items: center;
+   justify-items: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
+
+.book-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#book-image-description{
+  margin: 30px 0px;
+}
+
+.book-synopsis >p {
+  padding: 20px 0px;
+  margin-bottom: 0px;
 }
 
 .newsletter-grid-container {
   background-color: #F9F7F4;
   grid-template-columns: 60fr 4fr;
   margin-bottom: 30px;
+  grid-gap: 10px;
 }
 
 .blog-grid-container > div, 
 .newsletter-grid-container > div,
 .coming-soon-container-right > div {
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: column; */
   margin: auto;
   color: #282828;
 }
@@ -275,7 +299,11 @@ padding-left: 4px;
   border-top: solid 5px #F0D0CE;
 }
 
-#book-image, .newsletter-image {
+#book-image {
+  width: 100%;
+}
+
+.newsletter-image {
   width: 90%;
 }
 
@@ -306,7 +334,7 @@ h3 {
   margin-left: 10vw;
   font-style: normal;
   font-weight: 600;
-  font-size: 5vh;
+  font-size: 25px;
   line-height: 38px;
 }
   
@@ -325,17 +353,22 @@ h1 {
   font-size: 50px;
 }
   
-p {
+p{
   margin-top: 0px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 18px;
 }
 
+.book-link {
+  text-decoration: none;
+  color: #282828;
+}
+
 footer{
- background-color: #F0D0CE;
- height: 5vh;
- text-align: center;
- position: relative;
- align-content: center;
- padding-top: 20px;
+  background-color: #F0D0CE;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
