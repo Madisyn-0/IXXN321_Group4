@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  font-family: Nunito Sans;
+  font-family: 'Mulish', sans-serif;
   color: #282828;
 }
 
@@ -29,12 +29,13 @@ html, body {
 }
 
 a, #signup, #login {
+  font-weight: 700;
   margin: 0px 20px;
   margin-top: auto;
   margin-bottom: auto;
   padding: 15px;
   text-decoration: none;
-  color: #282828;
+  color: black;
 }
 
 a:hover {
@@ -137,6 +138,10 @@ padding-left: 4px;
    padding-left: 4px;
 }
 
+#blog-image {
+  width: 100%;
+}
+
 .blog-hero-grid-container {
   grid-template-columns: 50fr 50fr;
   padding: 40px 30px -5px 30px;
@@ -144,6 +149,7 @@ padding-left: 4px;
   display: flex;
   background-color: #1F524F;
   padding-top: 30px;
+  margin-top: 60px;
 }
 
 .blog-hero-content{
@@ -173,7 +179,10 @@ padding-left: 4px;
 
 .grid-container, 
 .blog-grid-container,
-.newsletter-grid-container{
+.newsletter-grid-container,
+.blog-post-container,
+.coming-soon-container,
+.coming-soon-container-right{
   display: grid;
   grid-template-columns: 13vw 13vw 13vw 13vw 13vw 13vw;
   grid-gap: 10px;
@@ -185,7 +194,10 @@ padding-left: 4px;
 
 .grid-container > div, 
 .blog-grid-container > div,
-.newsletter-grid-container > div {
+.newsletter-grid-container > div,
+.blog-post-container > div,
+.coming-soon-container > div,
+.coming-soon-container-right > div {
   text-align: left;
   padding-top: 0.5px;
   font-size: 20px;
@@ -205,12 +217,62 @@ padding-left: 4px;
 }
 
 .blog-grid-container > div, 
-.newsletter-grid-container > div {
+.newsletter-grid-container > div,
+.coming-soon-container-right > div {
   /* display: flex;
   flex-wrap: wrap;
   flex-direction: column; */
   margin: auto;
   color: #282828;
+}
+
+.coming-soon-container {
+  grid-template-columns: 31.5fr 68.5fr;
+  grid-gap: 50px;
+}
+
+.coming-soon-container-right {
+  grid-template-columns: 40fr 60fr;
+  grid-gap: 30px;
+  border-top: solid 5px #F0D0CE;
+  display: flex;
+  justify-content: center;
+}
+
+.coming-soon-large-title {
+  margin-bottom: 10px;
+}
+
+.blog-post-title {
+  margin-top: 1vw;
+  margin-bottom: 30px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.blog-tile-heading {
+  margin-left: 5.5vw;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+}
+
+.blog-post-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+}
+
+.blog-post-content {
+  border-top: 5px solid #F3CA30;
+}
+
+.coming-soon-content {
+  border-top: solid 5px #F0D0CE;
 }
 
 #book-image, .newsletter-image {
