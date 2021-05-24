@@ -202,7 +202,7 @@ padding-left: 4px;
   text-align: left;
   padding-top: 0.5px;
   font-size: 20px;
-  margin-left: auto;
+  /* margin-left: auto; */
   margin-right: auto;
 }
 
@@ -328,7 +328,7 @@ padding-left: 4px;
 }
 
 h3 {
-  margin-left: 10vw;
+  margin-left: 8.5vw;
   font-style: normal;
   font-weight: 600;
   font-size: 25px;
@@ -338,6 +338,7 @@ h3 {
 h4 {
   font-size: 18px;
   padding-top: 0;
+  margin-bottom: 0px;
 }
   
 h2 {
@@ -420,3 +421,4 @@ footer{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
+
