@@ -57,13 +57,14 @@ html, body {
 /* buttons */
 
 #signup, #login, .search-button, .readMore-button,
-#email-button  {
+#email-button, .sample-button, .borrow-button  {
   padding: 8px 20px;
   border-radius: 80px;
   border: 1px solid #143836;
 }
 
-#login, .search-button, .readMore-button {
+#login, .search-button,
+.readMore-button, .sample-button {
   background-color: #F9F7F4;
   color: #143836;
 }
@@ -72,20 +73,25 @@ html, body {
   background-color: #ffffff;
 }
 
-#signup, #email-button {
+#signup, #email-button, .borrow-button {
   background-color: #143836;
   color: #F9F7F4;
 }
 
+.borrow-button {
+  margin-bottom: 10px;
+}
+
 #login:hover, 
 .search-button:hover, 
-.readMore-button:hover {
+.readMore-button:hover,
+.sample-button:hover {
   background-color: #143836;
   color: #F9F7F4;
   cursor: pointer;
 }
 
-#signup:hover, #email-button:hover {
+#signup:hover, #email-button:hover, .borrow-button:hover {
   background-color: #F9F7F4;
   color:#143836;
   cursor: pointer;
@@ -187,6 +193,7 @@ padding-left: 4px;
   grid-template-columns: 13vw 13vw 13vw 13vw 13vw 13vw;
   grid-gap: 10px;
   padding: 10px;
+  padding-bottom: 20px;
   justify-content: center;
   margin-left: 5vw;
   margin-right: 5vw;
@@ -217,8 +224,12 @@ padding-left: 4px;
   border-bottom: 1px #787878 solid;
   align-items: center;
    justify-items: center;
-   padding-top: 40px;
+   padding-top: 20px;
    padding-bottom: 40px;
+}
+
+.book-description > h2 {
+  margin-bottom: 10px;
 }
 
 .book-options {
@@ -229,12 +240,25 @@ padding-left: 4px;
 
 #book-image-description{
   margin: 30px 0px;
+  border-radius: 10px;
 }
 
 .book-synopsis >p {
   padding: 20px 0px;
   margin-bottom: 0px;
 }
+
+.book-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.book-author {
+  font-size: 25px;
+}
+
 
 .newsletter-grid-container {
   background-color: #F9F7F4;
