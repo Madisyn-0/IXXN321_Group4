@@ -6,8 +6,6 @@ html, body {
   color: #282828;
 }
 
-
-
 /* nav */
 
 #nav-container {
@@ -42,6 +40,11 @@ html, body {
   background-color: #E84E3E;
   color: #ffffff;
   padding: 15px;
+}
+
+.current-page {
+  color: #E84E3E;
+  border-bottom: 2px #E84E3E solid;
 }
 
 #logo{
@@ -148,6 +151,11 @@ padding-left: 4px;
   width: 100%;
 }
 
+#blog-image-square {
+  width: 100%;
+  padding-top: 10px;
+}
+
 .blog-hero-grid-container {
   grid-template-columns: 50fr 50fr;
   padding: 40px 30px -5px 30px;
@@ -209,7 +217,6 @@ padding-left: 4px;
   text-align: left;
   padding-top: 0.5px;
   font-size: 20px;
-  /* margin-left: auto; */
   margin-right: auto;
 }
 
@@ -291,6 +298,15 @@ padding-left: 4px;
   margin-bottom: 10px;
 }
 
+.blog-librarian-section {
+  border-top: 1px #787878 solid;
+}
+
+.blog-librarian-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .blog-post-title {
   margin-top: 1vw;
   margin-bottom: 30px;
@@ -322,7 +338,6 @@ padding-left: 4px;
 .coming-soon-content {
   border-top: solid 5px #F0D0CE;
 }
-
 
 .newsletter-image {
   width: 90%;
@@ -379,11 +394,6 @@ p{
   margin-top: 0px;
   margin-bottom: 20px;
   font-size: 18px;
-}
-
-.book-link {
-  text-decoration: none;
-  color: #282828;
 }
 
 footer{
