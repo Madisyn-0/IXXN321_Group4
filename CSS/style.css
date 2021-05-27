@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  font-family: 'Mulish', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #282828;
 }
 
@@ -322,8 +322,8 @@ padding-left: 15vw;
 .blog-tile-heading {
   margin-left: 5.5vw;
   font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
+  font-weight: 600;
+  font-size: 32px;
   line-height: 38px;
 }
 
@@ -374,7 +374,7 @@ h3 {
   margin-left: 8.5vw;
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 32px;
   line-height: 38px;
 }
   
@@ -392,6 +392,7 @@ h2 {
   
 h1 {
   font-size: 50px;
+  font-weight: 600;
 }
   
 p{
