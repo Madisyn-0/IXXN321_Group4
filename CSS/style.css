@@ -173,6 +173,7 @@ padding-left: 4px;
 }
 
 #blog-hero {
+padding-left: 15vw;
   width: 50vw;
 }
 
@@ -226,6 +227,8 @@ padding-left: 4px;
   padding: 40px 10px;
   grid-gap: 30px;
 }
+
+
 
 .book-description-container{
   grid-template-columns: 50fr 50fr;
@@ -397,15 +400,6 @@ p{
   font-size: 18px;
 }
 
-footer{
-  background-color: #F0D0CE;
-  height: 10vh;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
 /* Book hover  */
 
 #book-image {
@@ -457,3 +451,21 @@ footer{
     text-align: center;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  background-color: #F0D0CE;
+}
+
+#footer-content {
+  margin-left: 90px;
+  margin-right: 15vw;
+  margin-top: 75px;
+}
+
+.footer-image > img {
+  margin-top: 60px;
+  margin-right: 80px;
+  margin-bottom: 60px; 
+}
