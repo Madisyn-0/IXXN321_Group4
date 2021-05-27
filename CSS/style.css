@@ -75,6 +75,7 @@ html, body {
 
 .readMore-button {
   background-color: #ffffff;
+  margin-top: 8px;
 }
 
 #signup, #email-button, .borrow-button {
@@ -385,7 +386,7 @@ h3 {
   
 h4 {
   font-size: 18px; 
-  padding-top: 0;
+  margin-top:0px;
   margin-bottom: 0px;
 }
   
@@ -402,7 +403,7 @@ h1 {
   
 p{
   margin-top: 0px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   font-size: 18px;
   line-height: 140%;
 }
