@@ -280,7 +280,7 @@ padding-left: 15vw;
 .newsletter-grid-container {
   background-color: #F9F7F4;
   grid-template-columns: 60fr 4fr;
-  margin-bottom: 30px;
+  margin-bottom: 56px;
   grid-gap: 10px;
 }
 
