@@ -84,7 +84,7 @@ html, body {
 
 .borrow-button {
   margin-bottom: 16px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 .sample-button{
@@ -404,6 +404,7 @@ p{
   margin-top: 0px;
   margin-bottom: 20px;
   font-size: 18px;
+  line-height: 140%;
 }
 
 /* Book hover  */
